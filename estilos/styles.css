@@ -136,3 +136,21 @@ section#img3 {
 section.oberon {
     background-image: linear-gradient(to right,#484C5F,#343960,#A0A1B4);
 }
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--font1);
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
