@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+:root {
+    --font1: Verdana, Tahoma, sans-serif;
+    --fonte2: cursive;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.123);
+}
+header {
+    text-align: center;
+    background-color: black;
+    min-height: 150px;
+    color: white;
+    font-family: var(--font1);
+}
+
+header h1 {
+    font-variant: small-caps;
+    padding: 15px 0px 15px 0px;
+    font-size: 55px;
+}
+
+header p{
+    font-size: 25px;
+    padding: 0px 0px 25px 0px;
+}
+
+main {
+    background-color: white;   
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    line-height: 1.3em;
+}
+
+main p {
+    font-size: 20px;
+    text-indent: 30px;
+    margin-block-start: 1em;
+}
+
+main .p2 {
+    padding: 15px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 40px;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    text-align: justify;
+}
+
+section h2 {
+    padding-bottom: 30px;
+}
+
+section h5 {
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+section p{
+    font-size: .45em;
+}
+
+section.imagem {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+    background-size: cover;
+}
+
+section.imagem > h1  {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section.imagem > p  {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    text-align: justify;
+    padding: 80px;
+    margin: 30px 0px;
+}
+
+section#img1 {
+    background: black url(../imagens/artoria.jpg) right center no-repeat fixed;
+    background-size: cover;
+
+}
+
+section.saber {
+    background-image: linear-gradient(to right,#FCF1BB,#F4BC89,#FCF1BB);
+    padding: 70px;
+
+}
+
+
+
+section#img2 {
+    background: black url(../imagens/fate-grand-order-jeanne-d-arc-alter-6fgybrqerfaw1ajb.jpg) right center no-repeat fixed;
+    background-size: cover;
+
+}
+
+section.jeanne {
+    background-image: linear-gradient(to right,#B0C0EB,#7c78cf,#F4D9B8);
+    padding: 70px;
+}
+
+section#img3 {
+    background: black url(../imagens/Oberon650.webp) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section.oberon {
+    background-image: linear-gradient(to right,#484C5F,#343960,#A0A1B4);
+}
