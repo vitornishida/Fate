@@ -91,3 +91,12 @@ section#ushi {
     background: black url(../imagens/ushi.jpg)center center no-repeat fixed;
     background-size: cover;
 }
+
+section#natsusawa {
+    margin: auto;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    padding: 41px;
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.438);
+}
