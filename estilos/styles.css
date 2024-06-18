@@ -100,7 +100,8 @@ section.imagem > p  {
     color: white;
     text-align: justify;
     padding: 80px;
-    margin: 30px 0px;
+    margin: 30px 30px 30px 0px;
+    
 }
 
 section#img1 {
@@ -153,4 +154,32 @@ footer a{
 
 footer a:hover {
     text-decoration: underline;
+}
+
+article {
+    background-image: linear-gradient(to right,#484C5F,#343960,#A0A1B4);
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+article > h1 {
+    padding: 0px 0px 20px 0px;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article > iframe {
+    height: 475px;
+    width: 700px;
+    margin:15px;
+    border: solid white;
 }
